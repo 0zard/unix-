@@ -1,0 +1,14 @@
+Q:q1,p,q2,q3,j;
+Sigma:1;
+q0:p;
+Accept:q3;
+Reject:j;
+Delta:
+(q0,1)->(q1,x,R),
+(q1,1)->(q2,x,R),
+(q2,1)->(q1,x,R),
+(q1,B)->(q3,o,L),
+(q2,B)->(q3,e,L);
+
+
+
